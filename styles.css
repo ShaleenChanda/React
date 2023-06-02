@@ -1,0 +1,46 @@
+.headerlist{
+    list-style: none;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.842);
+} 
+
+.headerlist{
+    padding : 40px;
+}
+
+.headerlist li{
+    margin-right: 20px;
+    color:#61DBFB;
+}
+
+
+.headimage{
+    margin-left: 10px;
+    width: 90px;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.842);
+    
+
+    width: 100%;
+}
+
+
+.footerelement{
+    color:#61DBFB;
+    float: right;
+    
+}
